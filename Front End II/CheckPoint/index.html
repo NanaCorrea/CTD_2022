@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    
+    <title>Checkpoint 01</title>
+</head>
+
+<body>
+    <h1>Crie seu grupo de RPG</h1>
+    <div class="container__main">
+        <div class="forms">
+            <form class="form">
+                <h2>Crie seu personagem</h2>
+                <div class="infos">
+                    <div><label for="nome">Nome:</label>
+                        <input type="text" class="form-input" placeholder="digite seu nome" data-form-nome>
+                    </div>
+                    <div><label for="desc">Descrição:</label>
+                        <textarea name="desc" class="form-input" placeholder="digite sua descrição"
+                            data-form-descricao></textarea>
+                    </div>
+                    <div><label for="personImg">Foto:</label>
+                        <input type="url" class="form-input" placeholder="insira a url da Imagem" data-form-img>
+                    </div>
+
+                </div>
+                <div class="actions">
+                    <button class="form-button" data-form-button>Criar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </div>
+        <div class="feed">
+            <h2>Veja seus integrantes</h2>
+            <div class="feed__cards" data-list>
+                
+                <!-- cards de cada personagem -->
+                <!-- 01 -->
+                <div class="card">
+                    <div class="item">
+                        <img src="http://fcbahistory.pbworks.com/f/1227492205/Mary%20Elizabeth%20Winstead%2005.jpg"
+                            class="img_face"></img>
+                        <div class="info_face" data-info>
+                            <h3>Lynette Barkhorn</h3>
+                            <p>Depois de um atentado à cidade de Las Vegas, acordei sem lembranças do meu
+                                passado e de quem eu era. Meses depois, com a ajuda de um estranho que dizia me
+                                conhecer, e um antigo diário, as coisas estão começando a voltar. Eu sou Abyss, a
+                                Manipuladora de Sombras. Lynette Barkhorn.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="delete-button">Deletar</button>
+                </div>
+                <!-- 02 -->
+                <div class="card">
+                    <div class="item">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT29FDQttqj_kUMUCZXGmTSFqkQdzF170PV5g&usqp=CAU"
+                            class="img_face"></img>
+                        <div class="info_face" data-info>
+                            <h3>Lynette Barkhorn</h3>
+                            <p>Depois de um atentado à cidade de Las Vegas, acordei sem lembranças do meu
+                                passado e de quem eu era. Meses depois, com a ajuda de um estranho que dizia me
+                                conhecer, e um antigo diário, as coisas estão começando a voltar. Eu sou Abyss, a
+                                Manipuladora de Sombras. Lynette Barkhorn.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="delete-button">Deletar</button>
+                </div>
+
+                        <!-- 03 -->
+                <div class="card">
+                    <div class="item">
+                        <img src="https://m.media-amazon.com/images/M/MV5BZTUzOGUxMmUtMzUzMS00MTdmLWJjYjktNDE1ZDkzMjRhZmZmXkEyXkFqcGdeQXVyMTU3NTQyMTg@.jpg"
+                            class="img_face"></img>
+                        <div class="info_face" data-info>
+                            <h3>Lynette Barkhorn</h3>
+                            <p>Depois de um atentado à cidade de Las Vegas, acordei sem lembranças do meu
+                                passado e de quem eu era. Meses depois, com a ajuda de um estranho que dizia me
+                                conhecer, e um antigo diário, as coisas estão começando a voltar. Eu sou Abyss, a
+                                Manipuladora de Sombras. Lynette Barkhorn.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="delete-button">Deletar</button>
+                </div>
+                <!-- 04 -->
+                <div class="card">
+                    <div class="item">
+                        <img src="https://i.pinimg.com/originals/12/b3/8a/12b38ad8b0db769fac3dc91ec767cc7d.jpg"
+                            class="img_face"></img>
+                        <div class="info_face" data-info>
+                            <h3>Lynette Barkhorn</h3>
+                            <p>Depois de um atentado à cidade de Las Vegas, acordei sem lembranças do meu
+                                passado e de quem eu era. Meses depois, com a ajuda de um estranho que dizia me
+                                conhecer, e um antigo diário, as coisas estão começando a voltar. Eu sou Abyss, a
+                                Manipuladora de Sombras. Lynette Barkhorn.
+                            </p>
+                        </div>
+                    </div>
+                    <button class="delete-button">Deletar</button>
+                </div>
+    
+                    <!-- fim dos cards -->
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="./assets/main.js" defer></script>
+    <script type="module" src="./assets/deletaPersonagem.js"></script>
+</body>
+
+</html>

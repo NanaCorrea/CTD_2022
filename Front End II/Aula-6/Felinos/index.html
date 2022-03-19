@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/switch.css">
+  <title>Aula 5 - Modificar elementos com JS </title>
+</head>
+
+<body class="dark">
+
+  <div class="container">
+    <h1>A família dos felinos</h1>
+
+    <!-- Exemplo de switch, retiado do W3Schools 
+      -> https://www.w3schools.com/howto/howto_css_switch.asp
+    -->
+    <label class="switch">
+      <!-- OnChnaged -> Fica obervando 'mudanças' no comportamento do input -->
+      <input id="toggleSwitch" type="checkbox" onchange="alteraTema()">
+      <span class="slider"></span>
+    </label>
+
+  </div>
+
+  <div class="container felinos">
+
+    <!-- <div class="item">
+      <img src="./imagens/leon.jpg">
+      <h2>O leão</h2>
+      <p>
+        O leão (Panthera leo) é um mamífero carnívoro da família dos felinos é uma das cinco espécies do gênero
+        gênero Panthera. Os leões selvagens vivem em populações cada vez mais dispersas e fragmentadas na África
+        subsahariana
+        (com exceção das regiões florestais e das regiões de selva da Bacia do Congo) e uma pequena área do noroeste da
+        Índia.
+      </p>
+    </div> -->
+
+  </div>
+  <script src="scripts/script_mesa_aula5.js"></script>
+</body>
+
+</html>
